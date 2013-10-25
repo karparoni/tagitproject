@@ -1,4 +1,21 @@
 <!DOCTYPE html>
+<html lang="en">
+   <head>
+                <g:layoutHead/>
+                <r:layoutResources />
+   </head>
+   <body>
+      <g:layoutBody/>
+      <r:layoutResources/>
+      <g:render template="/layouts/about-modal" />
+   </body>
+</html>
+
+
+
+
+
+<%--<!DOCTYPE html>
 <!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
 <!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
 <!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
@@ -26,3 +43,4 @@
 		<r:layoutResources />
 	</body>
 </html>
+--%>
